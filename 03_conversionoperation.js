@@ -21,3 +21,37 @@ let stringNumber=String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
 //number to string
+//***************** Operation***************** */
+let value=3
+let negValue=-value
+console.log(negValue);
+//addition
+console.log(2+2);
+//subtraction
+
+// console.log(4-2);
+// //multiplication
+// console.log(2*3);
+// //division
+// console.log(4/2);
+// //remainder
+// console.log(5%2);
+// //increment
+// console.log(++value);
+// //decrement
+// console.log(--value);
+// //exponentiation
+// console.log(2**3);
+
+let s1="hrishikesh"
+let s2=" Karale"
+console.log(s1+s2);
+//string concatenation
+console.log(s1+" "+s2);
+console.log("1"+2+2);
+console.log(1+"2"+2);
+
+console.log(1+2+"2");
+let gameCounter=100;
+gameCounter++;
+console.log(gameCounter);
