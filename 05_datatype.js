@@ -33,5 +33,27 @@ function myFunction(){
 //agar kisi bhi iska sdata type pataa karna hai to bohot simple hai bas typeof likho or phir data type ka name
 console.log(typeof myFunction);//function pn ek object aaste
 console.log(typeof NULL);
+
+
+
 //PRIMITIVE USE STACK MEMORY
 //REFERENCE TYPE USE HEAP MEMORY
+
+let collegeName="sggs nanded"
+let anothername=collegeName;
+anotherName="guru gobind singh nanded  "
+console.log(collegeName);
+
+let userOne=
+{
+    email:"karalehrishikesh@gmail.com",
+    upi:"user@ybl"
+
+
+}
+let userTwo=userOne;
+userTwo.email="karalehrishikesh@okaxis"
+console.log(userOne.email);
+console.log(userTwo.email);
+//heap ke andar refrance milta hai
+//wahi stack me copy milta hai
