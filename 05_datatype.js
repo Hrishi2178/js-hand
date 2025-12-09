@@ -57,3 +57,6 @@ console.log(userOne.email);
 console.log(userTwo.email);
 //heap ke andar refrance milta hai
 //wahi stack me copy milta hai
+const name='hrishikesh';
+const repoCount=4;
+console.log('hello my name is${name} and my repo count is ${repoCount}');
