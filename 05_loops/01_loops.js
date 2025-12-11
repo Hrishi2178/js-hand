@@ -31,3 +31,15 @@ for(let i=0;i<myarray.length;i++){
     }
     console.log(`value of index is ${i}`);
  }
+let i=0
+ while(i<=22){
+    console.log(i);
+    i++;
+
+ }
+
+ let h=11
+ do{
+ console.log(`score is ${h}`);
+ h++
+ }while(h<=10);
