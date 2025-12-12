@@ -24,7 +24,18 @@ for(const key in myObject){
 
 const coding=[`js`,`rb`,`py`,`c++`,`c`,`java`]
  coding.forEach(function(item){
-    console.log(item);  
+   // console.log(item);  
+   return item
  })
     
+ const myNums=[1,2,3,4,5,6,7,8,9]
+ const newNums=myNums.filter((num)=>{
+    num>4
+ })
+ console.log(newNums);
+ //agar curly braces that is scope agar start kar diya toh return dena he padega for sure
 
+ const myNumers=[1,2,3,4,5,6,7,8]
+ const newNumers= myNumers.map((num => num+10))
+
+console.log(newNumers);

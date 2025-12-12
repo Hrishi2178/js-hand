@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hrishikesh Vinod Karale</title>
+</head>
+<body style="background-color: darkmagenta; color:aliceblue">
+    <div class="parent">
+        <div class="day">MONDAY</div>
+         <div class="day">TUESDAY</div>
+          <div class="day">WENESDAY</div>
+           <div class="day">THRUSDAY</div>
+            <div class="day">FRIDAY</div>
+         
+
+         
+
+
+    </div>
+    <script>
+        const parent =document.querySelector('.parent')
+        console.log(parent);
+        console.log(parent.children[1].innerHTML);
+
+        for(let i=0;i<parent.children.length;i++){
+            console.log(parent.children[i].innerHTML);
+        }
+
+
+        const dayone=document.querySelector('.day')
+         console.log(dayone);
+         console.log(dayone.firstElementChild);
+         console.log(dayone.lastElementChild);
+
+
+        
+
+
+    </script>
+</body>
+</html>
